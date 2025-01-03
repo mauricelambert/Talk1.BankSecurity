@@ -6,7 +6,7 @@ This talk is about bank security, don't use it for illegal purpose ! I make this
 
 ## Why
 
-I visited my bank and met my financial advisor, when i did it i saw some cybersecurity problems, so i choose to talk about thoses problems.
+I visited my bank and met my financial advisor, when i did it i saw some cybersecurity problems, so i choose to talk about those problems.
 
 ## Talk
 
