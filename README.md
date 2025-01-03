@@ -100,7 +100,7 @@ Get-ChildItem -Path HKLM:\System\CurrentControlSet\Enum\USB\ | ForEach-Object {
 #### What about detection and protection
 
 In this case the better tools to mitigate the vulnerability is the EDR:
- - EDR should detect the new device (even if the device ID is already now because the driver is different), should detect the `Win+R`, should detect writing at 40 characters per second, should detect the `powershell` process creation, should detect the *hidden windows*, should detect the code downloaded from internet and executed **BUT** i try one of the best-selling EDR and there is no detection and no protection, only a telemetry for the process and nothing else... This EDR must have really, really good sales teams...
+ - EDR should detect the new device (even if the device ID is already now because the driver is different), should detect the `Win+R`, should detect writing at 40 characters per second, should detect the `powershell` process creation, should detect the *hidden windows*, should detect the code downloaded from internet and executed **BUT** i try one of the best-selling EDR and there is no detection and no protection, only a telemetry for the process and nothing else... This EDR must have really, really good sales teams... And my configuration is the most restrictive mode (`protect/protect`, this mode block all suspicious behaviour).
  - SIEM can detect a new device (and probably not if the device ID is already know), so you don't have detection and don't have response (with SOAR or other tools to block the attack).
 
 ### Access to the office
